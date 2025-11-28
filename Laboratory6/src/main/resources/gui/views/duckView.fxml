@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ui.graphical.controllers.DuckController"
+      spacing="12" alignment="CENTER" prefWidth="900" prefHeight="700">
+
+    <Region VBox.vgrow="ALWAYS"/>
+
+    <HBox spacing="0" alignment="CENTER" prefHeight="500">
+        <Region fx:id="leftMargin" HBox.hgrow="ALWAYS"/>
+
+        <StackPane fx:id="tableContainer"
+                   styleClass="stack-pane-table"
+                   prefWidth="600" prefHeight="500">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <TableView fx:id="duckTable" VBox.vgrow="ALWAYS" prefWidth="560" prefHeight="480">
+                <columns>
+                    <TableColumn fx:id="colUsername" text="Username"/>
+                    <TableColumn fx:id="colPassword" text="Password"/>
+                    <TableColumn fx:id="colEmail" text="Email"/>
+                    <TableColumn fx:id="colDuckType" text="Type"/>
+                    <TableColumn fx:id="colSpeed" text="Speed"/>
+                    <TableColumn fx:id="colStamina" text="Stamina"/>
+                </columns>
+            </TableView>
+        </StackPane>
+
+        <Region fx:id="rightMargin" HBox.hgrow="ALWAYS"/>
+    </HBox>
+
+    <ComboBox fx:id="duckTypeComboBox" promptText="Select Duck Type" prefWidth="200"/>
+
+    <Region VBox.vgrow="ALWAYS"/>
+</VBox>
