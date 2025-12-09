@@ -1,0 +1,25 @@
+.root {
+    -fx-background-image: url("../images/ducksWallpaper.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.stack-pane-table {
+    -fx-background-color: #FFEE66;
+    -fx-border-color: #333333;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+}
+
+.back-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.back-button:hover {
+    -fx-opacity: 0.8;
+}
+
+

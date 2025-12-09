@@ -1,0 +1,181 @@
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial;
+    -fx-font-size: 13px;
+}
+
+.chat-root {
+    -fx-background-color: linear-gradient(#071018, #0b1116);
+}
+
+.top-bar {
+    -fx-padding: 12 16;
+    -fx-background-color: rgba(255,255,255,0.02);
+    -fx-alignment: center-left;
+    -fx-spacing: 8;
+    -fx-background-radius: 8;
+}
+
+.user-label {
+    -fx-text-fill: #eaf0ff;
+    -fx-font-weight: 600;
+    -fx-font-size: 14px;
+}
+
+.logout-button {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(255,255,255,0.08);
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 6 10;
+    -fx-text-fill: #dfe7ff;
+    -fx-cursor: hand;
+}
+
+.logout-button:hover {
+    -fx-background-color: rgba(255,255,255,0.03);
+}
+
+.split-container {
+    -fx-padding: 10 0;
+}
+
+.column-box {
+    -fx-background-color: rgba(255,255,255,0.01);
+    -fx-background-radius: 10;
+    -fx-padding: 5;
+}
+
+.column-header {
+    -fx-text-fill: #8b9bb4;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 5 5;
+    -fx-font-size: 12px;
+}
+
+.messages-scroll {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.messages-scroll .viewport {
+    -fx-background-color: transparent;
+}
+
+.messages-container {
+    -fx-padding: 10;
+    -fx-alignment: top-left;
+}
+
+.input-area {
+    -fx-padding: 12;
+    -fx-background-color: rgba(255,255,255,0.015);
+    -fx-background-radius: 12;
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.chat-field {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.chat-field .scroll-pane,
+.chat-field .scroll-pane .viewport {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.chat-field .content {
+    -fx-background-color: #151a1e;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: rgba(255,255,255,0.04);
+    -fx-border-insets: 0;
+    -fx-background-insets: 0;
+
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255,255,255,0.40);
+    -fx-padding: 8 10;
+    -fx-cursor: text;
+}
+
+.chat-field .text {
+    -fx-fill: white;
+}
+
+.chat-field:focused .content {
+    -fx-border-color: rgba(100,140,255,0.6);
+    -fx-effect: dropshadow(two-pass-box, rgba(100,140,255,0.08), 6, 0, 0, 0);
+    -fx-background-color: #151a1e;
+}
+
+.chat-field .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+.chat-field .scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(255,255,255,0.1);
+}
+
+.to-field {
+    -fx-background-color: #151a1e;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: rgba(255,255,255,0.04);
+    -fx-padding: 8 12;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255,255,255,0.40);
+    -fx-font-size: 13px;
+}
+
+.to-field:focused {
+    -fx-border-color: rgba(100,140,255,0.6);
+    -fx-effect: dropshadow(two-pass-box, rgba(100,140,255,0.08), 6, 0, 0, 0);
+}
+
+.send-row {
+    -fx-alignment: center-right;
+}
+
+.chat-send-button {
+    -fx-background-color: linear-gradient(#2f80ff, #1f5bd8);
+    -fx-background-radius: 8;
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+    -fx-border-color: transparent;
+    -fx-padding: 8 20;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.25), 2, 0, 0, 1);
+    -fx-cursor: hand;
+}
+
+.chat-send-button:hover {
+    -fx-background-color: linear-gradient(#3a8bff, #2b66ee);
+}
+
+.chat-send-button:pressed {
+    -fx-translate-y: 1;
+}
+
+.chat-send-button:disabled {
+    -fx-opacity: 0.6;
+    -fx-cursor: default;
+}
+
+.message-bubble {
+    -fx-background-radius: 12;
+    -fx-padding: 8 12;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.35), 2, 0, 0, 1);
+    -fx-wrap-text: true;
+    -fx-max-width: 85%;
+}
+
+.message-bubble.sent {
+    -fx-background-color: linear-gradient(#2b7cff, #1e5bd6);
+}
+
+.message-bubble.received {
+    -fx-background-color: rgba(255,255,255,0.05);
+    -fx-text-fill: #e6eefc;
+}

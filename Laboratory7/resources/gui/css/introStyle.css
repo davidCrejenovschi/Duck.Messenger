@@ -1,0 +1,81 @@
+.root {
+    -fx-background-color: black;
+}
+
+.duck-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.friendship-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.person-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.login-box {
+    -fx-background-color: rgba(255,255,255,0.08);
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-border-color: rgba(255,255,255,0.22);
+    -fx-border-width: 1.2;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(two-pass-box, rgba(0,0,0,0.45), 18, 0.2, 0, 4);
+}
+
+.login-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+}
+
+.login-label {
+    -fx-text-fill: #f3f3f3;
+    -fx-font-size: 12px;
+}
+
+.login-field {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: rgba(255,255,255,0.25);
+    -fx-border-width: 1;
+    -fx-padding: 8 10;
+    -fx-prompt-text-fill: rgba(255,255,255,0.45);
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+.login-field:focused {
+    -fx-border-color: #9bb4ff;
+    -fx-effect: dropshadow(two-pass-box, rgba(155,180,255,0.25), 8, 0.1, 0, 0);
+}
+
+.login-button {
+    -fx-background-color: rgba(255,255,255,0.18);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: rgba(255,255,255,0.35);
+    -fx-padding: 8 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.25), 3, 0, 0, 2);
+}
+
+.login-button:hover {
+    -fx-background-color: rgba(255,255,255,0.26);
+}
+
+.login-button:pressed {
+    -fx-background-color: rgba(255,255,255,0.12);
+    -fx-translate-y: 1;
+}
