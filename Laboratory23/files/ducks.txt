@@ -1,6 +1,0 @@
-id,username,password,email,duckType,speed,stamina
-400,kai,kai123,kai@gmail.com,SWIMMER,8.0,7.0
-100,dan,dan123,dan@gmail.com,FLYER,2.0,3.0
-200,mar,mar123,mar@gmail.com,FLYER,5.0,8.0
-600,lolo,lolo123,lolo@gmail.com,SWIMMER,4.0,8.0
-300,her,her123,her@gmail.com,SWIMMER,5.0,7.0
