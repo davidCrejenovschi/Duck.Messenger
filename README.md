@@ -40,7 +40,7 @@
       <img src="https://github.com/user-attachments/assets/773e87c7-7dc8-4882-92a4-ed1e07114509" width="40%" alt="Notification Toast">
     </td>
   </tr>
-</table>>
+</table>
 
 
 ## 🛠️ Local Development Setup
