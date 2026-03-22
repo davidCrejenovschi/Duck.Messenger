@@ -14,11 +14,11 @@
 <table align="center">
   <tr>
     <td align="center" width="50%">
-      <b>Login & Registration</b><br><br>
+      <b>Registration</b><br><br>
       <img src="https://github.com/user-attachments/assets/1ae4e2e3-e32b-4349-ba38-ba1c1fb609be" width="90%" alt="Login Screen">
     </td>
     <td align="center" width="50%">
-      <b>Friends & Connections</b><br><br>
+      <b>Login</b><br><br>
       <img src="https://github.com/user-attachments/assets/fa593da8-b89a-401b-8c91-8c9039cd2fe4" width="90%" alt="Friends List">
     </td>
   </tr>
