@@ -1,14 +1,47 @@
 # 🦆 Duck.Messenger
 
+
+<h2 align="center">📸 App Showcase</h2>
+
 <p align="center">
-  <img src="[LINK_POZA_PREVIEW_AICI]" alt="Duck.Messenger Preview">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" alt="Gradle">
 </p>
 
-<img width="963" height="903" alt="Captură de ecran 2026-03-22 220445" src="https://github.com/user-attachments/assets/1ae4e2e3-e32b-4349-ba38-ba1c1fb609be" />
-<img width="833" height="826" alt="Captură de ecran 2026-03-22 220548" src="https://github.com/user-attachments/assets/fa593da8-b89a-401b-8c91-8c9039cd2fe4" />
-<img width="1914" height="978" alt="Captură de ecran 2026-03-22 220810" src="https://github.com/user-attachments/assets/72e80ab4-50e4-4ec0-b9b4-8f012e676565" />
-<img width="730" height="206" alt="Captură de ecran 2026-03-22 220833" src="https://github.com/user-attachments/assets/773e87c7-7dc8-4882-92a4-ed1e07114509" />
-<img width="1916" height="979" alt="Captură de ecran 2026-03-22 220944" src="https://github.com/user-attachments/assets/82e881bf-1d8a-4356-9392-156d25dff4c6" />
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <b>Login & Registration</b><br><br>
+      <img src="https://github.com/user-attachments/assets/1ae4e2e3-e32b-4349-ba38-ba1c1fb609be" width="90%" alt="Login Screen">
+    </td>
+    <td align="center" width="50%">
+      <b>Friends & Connections</b><br><br>
+      <img src="https://github.com/user-attachments/assets/fa593da8-b89a-401b-8c91-8c9039cd2fe4" width="90%" alt="Friends List">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <b>Main Chat Interface</b><br><br>
+      <img src="https://github.com/user-attachments/assets/72e80ab4-50e4-4ec0-b9b4-8f012e676565" width="95%" alt="Main Chat Window">
+    </td>
+  </tr>
+  <tr>
+     <td colspan="2" align="center">
+      <b>Conversation View</b><br><br>
+      <img src="https://github.com/user-attachments/assets/82e881bf-1d8a-4356-9392-156d25dff4c6" width="95%" alt="Conversation View">
+    </td>
+  </tr>
+  <tr>
+     <td colspan="2" align="center">
+      <b>Real-Time Notifications</b><br><br>
+      <img src="https://github.com/user-attachments/assets/773e87c7-7dc8-4882-92a4-ed1e07114509" width="40%" alt="Notification Toast">
+    </td>
+  </tr>
+</table>>
+
 
 ## 🛠️ Local Development Setup
 
