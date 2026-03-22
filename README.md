@@ -19,6 +19,9 @@ Follow these steps to configure the source code and the database on your machine
 
 ```bash
 git clone https://github.com/davidCrejenovschi/Duck.Messenger.git
+```
+
+```bash
 cd Duck.Messenger
 ```
 
