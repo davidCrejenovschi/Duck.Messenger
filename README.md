@@ -18,7 +18,7 @@ Follow these steps to configure the source code and the database on your machine
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/davidCrejenovschi/Duck.Messenger.git](https://github.com/davidCrejenovschi/Duck.Messenger.git)
+git clone https://github.com/davidCrejenovschi/Duck.Messenger.git
 cd Duck.Messenger
 ```
 
@@ -38,7 +38,7 @@ For security reasons, database credentials are not tracked in Git. You need to c
 3. Fill in your local PostgreSQL credentials:
 
 ```env
-DB_URL=jdbc:postgresql://localhost:5432/duckMan
+DB_URL=jdbc:postgresql://localhost:5432/name_of_the_db
 DB_USER=your_postgres_username
 DB_PASSWORD=your_postgres_password
 ```
