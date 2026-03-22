@@ -1,1 +1,1 @@
-rootProject.name = "Duck_Man"
+rootProject.name = "Duck.Messenger"

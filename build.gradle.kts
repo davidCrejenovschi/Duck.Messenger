@@ -23,6 +23,8 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     implementation("org.postgresql:postgresql:42.7.8")
     testImplementation("com.h2database:h2:2.2.224")
+    implementation("com.zaxxer:HikariCP:5.1.0")
+    implementation("io.github.cdimascio:dotenv-java:3.0.0")
 }
 
 tasks.test {
