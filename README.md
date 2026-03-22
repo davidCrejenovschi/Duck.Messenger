@@ -10,15 +10,6 @@
   <img src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" alt="Gradle">
 </p>
 
-### 📦 Supported Platforms
-- **Windows** (via JRE)
-- **macOS** (via JRE)
-- **Linux** (via JRE)
-
----
-
-## 📜 Credits & License
-This is a **non-commercial, educational project** created for learning purposes.
 
 ## 🛠️ Local Development Setup
 
